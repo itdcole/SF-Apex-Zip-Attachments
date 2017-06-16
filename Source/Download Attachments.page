@@ -1,0 +1,13 @@
+<apex:page standardController="{CHANGE CONTROLLER HERE}" sidebar="false" wizard="true" showHeader="false" showChat="false" >
+
+<!-- For below CHANGEME = the Object you want to zip attachments for. eg Contact or CustomObject__c -->
+
+
+<center>
+<p style="align:center;">
+<c:VFZipConV2 attachmentIds="{!CHANGEME.Attachments}" generatedFileName="{!CHANGEME.Name} Attachments" mode="auto"/>  
+</p>
+</center>
+
+
+</apex:page>
